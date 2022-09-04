@@ -3,6 +3,11 @@ body {
     color: #FFFFFF;
     overflow: cover;
     background-size: cover;
+    /* cursor: url(../images/blade_cursor.png), auto; */
+}
+
+* {
+    cursor: url(../images/blade_cursor.png), auto !important;
 }
 
 .carousel-caption {
@@ -45,9 +50,6 @@ body {
 }
 
 .card-captions {
-    /* background-image: url(../images/card7.png);
-    background-repeat: no-repeat;
-    height: 14.75rem; */
     max-width: 386px;
 }
 
@@ -87,13 +89,6 @@ body {
     font-size: 14px;
 }
 
-
-/* .card8 {
-    background-image: url(../images/card8.png);
-    background-repeat: no-repeat;
-    height: 14.75rem;
-} */
-
 .title8 {
     padding-top: 123px;
     padding-left: 11px;
@@ -106,14 +101,6 @@ body {
     padding-left: 11px;
     font-size: 14px;
 }
-
-
-/* 
-.card9 {
-    background-image: url(../images/card9.png);
-    background-repeat: no-repeat;
-    height: 14.75rem;
-} */
 
 .title9 {
     padding-top: 123px;
@@ -155,32 +142,6 @@ body {
     margin-left: 18.25rem;
 }
 
-
-/* .card11 {
-    display: flex;
-    flex-direction: row;
-}
-
-.card12 {
-    display: flex;
-    flex-direction: row;
-}
-
-.card13 {
-    display: flex;
-    flex-direction: row;
-}
-
-.card14 {
-    display: flex;
-    flex-direction: row;
-}
-
-.card15 {
-    display: flex;
-    flex-direction: row;
-} */
-
 .btn-11,
 .btn-12,
 .btn-13,
@@ -200,20 +161,9 @@ body {
     display: flex;
 }
 
-
-/* hr{
-    position: absolute;
-    width: 800px;
-    height: 0px;
-    left: 16rem;
-    top: 129rem;
-    border: 1px solid rgba(255, 255, 255, 0.32);
-    transform: rotate(90deg);
-} */
-
 .hr-navbar3 {
     position: absolute;
-    width: 70%;
+    width: 85%;
     height: 0px;
     /* left: 28px; */
     margin-left: 3rem;
