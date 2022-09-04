@@ -6,9 +6,9 @@ body {
     /* cursor: url(../images/blade_cursor.png), auto; */
 }
 
-* {
+/* * {
     cursor: url(../images/blade_cursor.png), auto !important;
-}
+} */
 
 .carousel-caption {
     text-align: left;
@@ -22,12 +22,12 @@ body {
     padding: 10px;
 }
 
-.ParaaListadeDesejos {
+/* .ParaaListadeDesejos {
     border: black;
     position: absolute;
     left: 17rem;
     top: 15.8rem;
-}
+} */
 
 .navbar1 {
     position: relative;
@@ -119,7 +119,7 @@ body {
     text-decoration-line: line-through;
 }
 
-.cards {
+.card {
     background-color: black;
 }
 
@@ -131,7 +131,7 @@ body {
 .card15 {
     display: flex;
     flex-direction: row;
-    min-width: 37.5rem;
+    /* min-width: 37.5rem; */
 }
 
 .data {
@@ -139,7 +139,7 @@ body {
 }
 
 .img2 {
-    margin-left: 18.25rem;
+    /* margin-left: 18.25rem; */
 }
 
 .btn-11,
@@ -189,7 +189,7 @@ body {
 }
 
 .poster2-img2 {
-    width: 661px;
+    max-width: -webkit-fill-available;
 }
 
 .captions-poster2 {
@@ -199,7 +199,7 @@ body {
     align-content: center;
     justify-content: center;
     align-items: flex-start;
-    height: 100%;
+    /* height: 100%; */
 }
 
 .arrow-right2 {
